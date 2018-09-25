@@ -1,0 +1,225 @@
+.page-wrapper{
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	min-width: 300px;
+	.preloader{
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		z-index: 999999;
+		background-color: #ffffff;
+		background-position: center center;
+		background-repeat: no-repeat;
+	}
+	.error-section {
+		background-image: url('../img/4.jpg');
+		position: relative;
+		padding: 140px 0px 140px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		.content{
+			position: relative;
+			text-align: center;
+			h1{
+				position: relative;
+				color: #ffffff;
+				font-size: 200px;
+				font-weight: 700;
+				line-height: 1em;
+				margin-bottom: 0px;
+				font-family: 'Montserrat', sans-serif;
+			}
+			h2{
+				position: relative;
+				color: #ffffff;
+				font-size: 50px;
+				font-weight: 700;
+				line-height: 1.2em;
+				margin-bottom: 0px;
+				font-family: 'Montserrat', sans-serif;
+			}
+			.text{
+				position: relative;
+				color: #ffffff;
+				font-size: 25px;
+				font-weight: 600;
+				margin-top: 10px;
+				margin-bottom: 50px;
+				font-family: 'Montserrat', sans-serif;
+			}
+			.theme-btn {
+				font-size: 26px;
+				font-weight: 600;
+				padding: 19px 45px 19px;
+				background-color:$gehveyi;
+				color: #fff;
+				border-radius: 30px;
+				font-family: 'Poppins', sans-serif;
+				transition:all 0.5s ease-in-out;
+				&:hover{
+					text-decoration: none;
+					background-color: transparent;
+					border:2px solid $gehveyi;
+					color: $gehveyi;
+				}
+			}
+		}
+	}
+	.main-footer {
+		position: relative;
+		background-color: #191c20;
+		.widgets-section{
+			position: relative;
+			padding: 70px 0px 30px;
+			.logo-widget {
+				position: relative;
+				.logo {
+					position: relative;
+					margin-bottom: 40px;
+				}
+				.text {
+					position: relative;
+					font-size: 14px;
+					font-weight: 400;
+					color: rgba(255,255,255,0.60);
+					font-family: 'Poppins', sans-serif;
+				}
+				.number {
+					position: relative;
+					font-size: 18px;
+					margin-bottom: 16px;
+					color: #bbbbbc;
+				}
+			}
+			.footer-widget {
+				position: relative;
+				margin-bottom: 30px;
+				h2 {
+					position: relative;
+					font-size: 20px;
+					font-weight: 500;
+					color: #ffffff;
+					margin-bottom: 20px;
+					text-transform: capitalize;
+					font-family: 'Poppins', sans-serif;
+				}
+				.widget-content{
+					ul{
+						li{
+							list-style-type: none;
+							position: relative;
+							margin-bottom: 8px;
+							a{
+								position: relative;
+								color: rgba(255,255,255,0.60);
+								font-size: 14px;
+								transition:all 0.7s ease-in-out; 
+								&:hover{
+									color: #25baa9;
+									text-decoration: none;
+								}
+							}
+						}
+					}
+				}
+			}
+			.newsletter-widget{
+				position: relative;
+				margin-bottom: 30px;
+				h2{
+
+					position: relative;
+					font-size: 20px;
+					font-weight: 500;
+					color: #ffffff;
+					margin-bottom: 20px;
+					text-transform: capitalize;
+					font-family: 'Poppins', sans-serif;
+
+				}
+				.widget-content{
+					position: relative;
+					.text{
+						position: relative;
+						color: #858585;
+						font-size: 14px;
+						font-style: italic;
+						margin-bottom: 12px;
+						font-family: 'Poppins', sans-serif;
+					}
+					.emailed-form{
+						form{
+							.form-group{
+								position: relative;
+								display: block;
+								margin: 0px;
+								width: 100%;
+								margin-bottom: 28px;
+								input{
+									position: relative;
+									display: block;
+									width: 100%;
+									line-height: 26px;
+									height: 48px;
+									font-size: 14px;
+									color: #ffffff;
+									padding: 10px 50px 10px 20px;
+									background: #131518;
+									border: 1px solid #26292d;
+								}
+								button{
+									position: absolute;
+									right: 0px;
+									top: 0px;
+									width: 54px;
+									height: 47px;
+									line-height: 40px;
+									color: #191c20;
+									font-size: 20px;
+									text-align: center;
+									border-radius: 0px 4px 4px 0px;
+									background: #d2b871;
+									span{
+
+									}
+								}
+							}
+						}
+					}
+					.social-icon-one{
+						li{
+							position: relative;
+							margin-right: 10px;
+							display: inline-block;
+							a{
+								position: relative;
+								width: 36px;
+								height: 36px;
+								font-size: 16px;
+								text-align: center;
+								border-radius: 50%;
+								line-height: 34px;
+								color: #858585;
+								display: inline-block;
+								border: 1px solid #858585;
+								&:hover{
+
+								}
+							}
+						}
+					}
+				}
+				
+			}
+		}
+		.footer-bottom{
+			position: relative;
+			padding: 22px 0px;
+			text-align: center;
+			background-color: #131518;
+		}
+	}
+}

@@ -1,0 +1,56 @@
+.business{
+	position: relative;
+	padding: 80px 0px 70px;
+	opacity: 0.7;
+	width: 100%;
+	background-image: url("../img/1.jpg");
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	
+	.text{
+		position: relative;
+		text-align: center;
+		h2{
+			position: relative;
+			color: #ffffff;
+			font-size: 40px;
+			font-weight: 600;
+			line-height: 1.3em;
+			text-align: center;
+			margin-bottom: 30px;
+			span{
+				display: block;
+				font-weight: 300;
+				font-size: 30px;
+				color: #25baa9;
+			}
+		}
+		p{
+			position: relative;
+			color: #cec075;
+			font-size: 38px;
+			font-weight: 600;
+			padding: 10px 0px;
+		}
+		a{
+			position: relative;
+			line-height: 24px;
+			color: #ffffff;
+			text-decoration: none;
+			font-size: 17px;
+			font-weight: 600;
+			background: #25baa9;
+			display: inline-block;
+			padding: 11px 43px;
+			border-radius: 50px;
+			border: 2px solid #25baa9;
+			transition:all 0.6s ease-in-out;
+			&:hover{
+				background-color: transparent;
+				color:#25baa9;
+			}
+		}
+	}
+	
+}

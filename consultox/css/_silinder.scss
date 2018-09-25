@@ -1,0 +1,247 @@
+@import '_color.scss';
+
+.silinders{
+	.silinder1
+	{
+		width: 100%;
+		height: 100%;
+		background-image: url("../img/image-1.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		.owl-prev{
+			position: absolute;
+			left: 0px;
+			bottom: 50%;
+			cursor: pointer;
+			i{
+				font-size: 50px;
+				background-color:grey;
+			}
+		}
+		.right{
+			position: absolute;
+			right: 0px;
+			bottom: 50%;
+			cursor: pointer;
+			i{
+				font-size: 50px;
+				background-color:grey;
+			}
+		}
+		.silinder1_text{
+			position: relative;
+			top: 82px;
+			h1{
+				position: relative;
+				color: $ag;
+				font-size: 58px;
+				font-weight: 700;
+				line-height: 1.15em;
+				display: inline-block;
+
+			}
+
+			p{
+				position: relative;
+				width: 40%;
+				margin-bottom: 50px;
+				font-size: 20px;
+				font-weight: 400;
+				color: #ffffff;
+				line-height: 1.6em;
+			}
+
+			.href{
+				margin-bottom: 100px;
+				.more{
+					transition: all 0.5s ease-in-out;
+					color: #fff;
+					text-decoration: none;
+					line-height: 24px;
+					border: 2px solid #fff;
+					border-radius: 20px;
+					margin: 0px 28px 10px 0px;
+					padding: 11px 43px;
+					letter-spacing: 0px;
+					font-weight: 600;
+					font-size: 17px;
+					&:hover{
+						background-color: $gehveyi;
+						border-color:$gehveyi;
+					}
+				}
+
+				.contact{
+					transition: all 0.5s ease-in-out;
+					color: $ag;
+					background-color: $gehveyi;
+					text-decoration: none;
+					line-height: 24px;
+					border: 2px solid $gehveyi;
+					border-radius: 20px;
+					margin: 0px 28px 10px 0px;
+					padding: 11px 43px;
+					letter-spacing: 0px;
+					font-weight: 600;
+					font-size: 17px;
+					&:hover{
+						color: $gehveyi;
+						background-color: transparent;
+						border-color:$gehveyi;
+					}
+				}
+			}
+		}
+
+	}
+	.silinder2
+	{
+		width: 100%;
+		height: 100%;
+		background-image: url("../img/image-2.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+
+		.silinder1_text{
+			position: relative;
+			top: 82px;
+			h1{
+				position: relative;
+				color: $ag;
+				font-size: 58px;
+				font-weight: 700;
+				line-height: 1.15em;
+				display: inline-block;
+
+			}
+
+			p{
+				position: relative;
+				width: 40%;
+				margin-bottom: 50px;
+				font-size: 20px;
+				font-weight: 400;
+				color: $ag;
+				line-height: 1.6em;
+			}
+
+			.href{
+				margin-bottom: 100px;
+				.more{
+					transition: all 0.5s ease-in-out;
+					color:$ag;
+					text-decoration: none;
+					line-height: 24px;
+					border: 2px solid $ag;
+					border-radius: 20px;
+					margin: 0px 28px 10px 0px;
+					padding: 11px 43px;
+					letter-spacing: 0px;
+					font-weight: 600;
+					font-size: 17px;
+					&:hover{
+						background-color: $gehveyi;
+						border-color:$gehveyi;
+					}
+				}
+
+				.contact{
+					transition: all 0.5s ease-in-out;
+					color: $ag;
+					background-color: $gehveyi;
+					text-decoration: none;
+					line-height: 24px;
+					border: 2px solid $gehveyi;
+					border-radius: 20px;
+					margin: 0px 28px 10px 0px;
+					padding: 11px 43px;
+					letter-spacing: 0px;
+					font-weight: 600;
+					font-size: 17px;
+					&:hover{
+						color: $gehveyi;
+						background-color: transparent;
+						border-color:$gehveyi;
+					}
+				}
+			}
+		}
+
+	}
+	.silinder3
+	{
+		width: 100%;
+		height: 100%;
+		background-image: url("../img/image-3.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		.silinder1_text{
+			position: relative;
+			top: 82px;
+			h1{
+				position: relative;
+				color: $ag;
+				font-size: 58px;
+				font-weight: 700;
+				line-height: 1.15em;
+				display: inline-block;
+
+			}
+
+			p{
+				position: relative;
+				width: 40%;
+				margin-bottom: 50px;
+				font-size: 20px;
+				font-weight: 400;
+				color: $ag;
+				line-height: 1.6em;
+			}
+
+			.href{
+				margin-bottom: 100px;
+				.more{
+					transition: all 0.5s ease-in-out;
+					color: $ag;
+					text-decoration: none;
+					line-height: 24px;
+					border: 2px solid $ag;
+					border-radius: 20px;
+					margin: 0px 28px 10px 0px;
+					padding: 11px 43px;
+					letter-spacing: 0px;
+					font-weight: 600;
+					font-size: 17px;
+					&:hover{
+						background-color: $gehveyi;
+						border-color:$gehveyi;
+					}
+				}
+
+				.contact{
+					transition: all 0.5s ease-in-out;
+					color: $ag;
+					background-color: #d2b871;
+					text-decoration: none;
+					line-height: 24px;
+					border: 2px solid $gehveyi;
+					border-radius: 20px;
+					margin: 0px 28px 10px 0px;
+					padding: 11px 43px;
+					letter-spacing: 0px;
+					font-weight: 600;
+					font-size: 17px;
+					&:hover{
+						color: $gehveyi;
+						background-color: transparent;
+						border-color:$gehveyi;
+					}
+				}
+			}
+		}
+
+	}
+}

@@ -1,0 +1,215 @@
+@import '_spesial.scss';
+@import '_silinder.scss';
+@import '_whate_we_do.scss';
+@import '_color.scss';
+@import '_ullist.scss';
+@import '_compony.scss';
+@import '_business.scss';
+@import '_firms.scss';
+@import '_galery.scss';
+@import '_Michale.scss';
+@import '_news.scss';
+@import '_clients.scss';
+@import '_CallBack.scss';
+@import '_eror.scss';
+@import '_service.scss';
+@import '_nav_white.scss'; 
+@import '_blog.scss'; 
+@import '_contact.scss'; 
+@import '_comming_soon.scss';
+@import '_about.scss';
+@import '_media-mobil.scss';
+header{
+	position: relative;
+	z-index: 999;
+	top:0px;
+	left: 0px;
+	width: 100%;
+	.header-top{
+		background-color: #000;
+		.text{
+			position: relative;
+			float: left;
+			padding: 13px 0px 10px 0px;
+			p{
+				color: rgba(255,255,255,0.70);
+				font-size: 17px;
+			}
+		}
+
+		.header-list{
+			position: relative;
+			float: right;
+			padding: 13px 0px 10px 0px;
+			ul{
+				li{
+					display: inline-block;
+					list-style-type: none;
+					margin-left: 18px;
+					a{
+						display:block;
+						text-decoration: none;
+						font-size: 17px;
+						i{
+							color: #d2b871;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.header-upper{
+		position: relative;
+		background-color: #fff;
+		z-index: 5;
+		padding: 18px 0px;
+		.pull-left{
+			position: relative;
+			z-index: 25;
+			padding: 18px 0px;
+			.logo{
+				img{
+					position: relative;
+					display: inline-block;
+					max-width: 100%;
+				}
+			}
+		}
+
+		.pull-right{
+			display:flex;
+			padding: 30px 0px;
+			.info{
+				display:flex;
+				.icon-box{
+					margin: 8px 20px;
+					color: #d2b871;
+					font-size: 24px;
+
+				}
+				ul{
+					li{
+						list-style-type: none;
+						strong{
+							font-size: 15px;
+							color: #333333;
+							display: block;
+							margin-bottom: 3px;
+							font-weight: 600;
+						}
+						p{
+							color: #767676;
+							font-size: 14px;
+							font-weight: 600;
+						}
+					}
+				}
+			}
+		}
+		
+	}
+
+	.nav-white{
+		display: none;
+		width: 100%;
+		position: fixed;
+		top:0px;
+		left: 0px;
+		background-color: #fff;
+		transition:all 0.8s ease-in-out;
+		padding-right: 0px;
+		padding-left: 38px;
+		nav{
+			position: relative;
+			transition: all 300ms ease;
+			.logo{
+				float: left;
+				padding: 10px 0px 10px;
+				a{
+					text-decoration: none;
+					img{
+						display: inline-block;
+						max-width: 100%;
+						height: auto;
+					}
+				}
+				
+			}
+			
+
+			ul{
+				li{
+					display: inline-block;
+					list-style-type: none;
+					margin-right: 48px;
+					a{
+						display: block;
+						text-decoration: none;
+						color: #000;
+						padding: 16px 0px;
+					}
+					.dropdown{
+						position: absolute;
+						top: 12px;
+						height: 100px;
+						width: 100px;
+						list-style-type: none;
+						padding-top: 60px;
+						display: none;
+						li{
+							width: 250px;
+							a{
+								display: block;
+								text-decoration: none;
+								padding: 10px 30px;
+								background-color: $gehveyi;
+								color: white;
+								font-size: 20px;
+								transition: all 0.3s ease-in-out;
+							}
+							&:hover{
+								a{
+									background-color: rgba(255,255,255,0.50);
+									color:#000;
+								}
+							}
+						}
+
+					}
+					&:hover{
+						.dropdown{
+
+							display: block;
+						}
+					}
+
+					button{
+						position: absolute;
+						top: 0px;
+						border-left: 1px solid #000;
+						margin: 20px 0px;
+						padding: 0px 15px;
+						background-color: transparent;
+						cursor: pointer;
+						outline: none;
+						i{
+							font-size: 20px;
+							color: #000;
+
+						}
+					}
+				}
+			}
+			.icon{
+				a{
+					position: absolute;
+					right: 0px;
+					top:20px;
+				}
+			}
+
+			
+		}
+	}
+}
